@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.greenfeet">
+
+    <application
+        android:name="com.chaquo.python.android.PyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GreenFeet"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GreenFeet">
+        <activity
+            android:name=".PasswordReset"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Predictions"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Meals"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".MealHistory"
+            android:exported="false"/>
+        <activity
+            android:name=".Friends"
+            android:exported="false"/>
+        <activity
+            android:name=".AddFriend"
+            android:exported="false"/>
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

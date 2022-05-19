@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GreenFeet</string>
+    <string name="options">options</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="graph">Graph</string>
+    <string name="here_s_your_carbon_footprint_projection">Here\'s your carbon footprint projection</string>
+    <string name="this_weeks_meals">This Weeks Meals</string>
+</resources>

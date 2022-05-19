@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802488497316",
+    "project_id": "greenfeet-89660",
+    "storage_bucket": "greenfeet-89660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802488497316:android:7fff1ef1c6a76cd38b6231",
+        "android_client_info": {
+          "package_name": "com.example.greenfeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802488497316-5u6bfk3itng5juo7e8p7fnum7sid56lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyIChLHKVP4DbBkEhEDnhbC1OwidocVPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802488497316-5u6bfk3itng5juo7e8p7fnum7sid56lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

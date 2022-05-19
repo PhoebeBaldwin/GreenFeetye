@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#52D2F6C3"
+    tools:context=".UserProfile"
+    android:id="@+id/DrawerLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- The ActionBar -->
+
+        <include
+            layout="@layout/appbar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/flContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/WelcomeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="cursive"
+                android:textColor="#307133"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="326dp"
+                android:contentDescription="@string/graph"
+                app:srcCompat="@drawable/predictions" />
+
+            <TextView
+                android:id="@+id/textViewGraph"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/here_s_your_carbon_footprint_projection"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        android:id="@+id/navi_view"/>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
